@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/app_background"
+    tools:context=".ui.activity.SignupActivity">
+
+    <LinearLayout
+        android:id="@+id/parent_signup_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/back_signup_activity"
+                android:layout_width="@dimen/dp24"
+                android:layout_height="@dimen/dp24"
+                android:layout_marginHorizontal="@dimen/dp8"
+                android:layout_marginVertical="@dimen/dp4"
+                android:src="@drawable/app_back_arrow" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image_signup_activity"
+                android:layout_width="@dimen/dp128"
+                android:layout_height="@dimen/dp128"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/dp24"
+                android:src="@drawable/profile_avatar" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dp8"
+            android:paddingHorizontal="@dimen/dp8"
+            android:layout_marginBottom="@dimen/dp38"
+            android:background="@drawable/transparent_background"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dp16"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp8"
+                    android:layout_weight="1.875"
+                    android:gravity="start"
+                    android:text="@string/name_text" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="@dimen/dp8"
+                    android:layout_weight="0.125"
+                    android:src="@drawable/ic_round_text_abc" />
+            </LinearLayout>
+
+            <EditText
+                android:imeOptions="actionNext"
+                android:maxLines="1"
+                android:inputType="textCapWords"
+                android:id="@+id/name_signup_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp8"
+                android:background="@drawable/ui_round_solid_grey"
+                android:scrollHorizontally="true"
+                android:padding="@dimen/dp8" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dp16"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp8"
+                    android:layout_weight="1.875"
+                    android:gravity="start"
+                    android:text="@string/email_text" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="@dimen/dp8"
+                    android:layout_weight="0.125"
+                    android:src="@drawable/ic_round_email" />
+            </LinearLayout>
+
+            <EditText
+                android:imeOptions="actionNext"
+                android:maxLines="1"
+                android:inputType="textEmailAddress"
+                android:id="@+id/email_signup_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp8"
+                android:background="@drawable/ui_round_solid_grey"
+                android:scrollHorizontally="true"
+                android:padding="@dimen/dp8" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp16"
+                android:layout_marginBottom="@dimen/dp4"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp8"
+                    android:layout_weight="1.875"
+                    android:gravity="start"
+                    android:text="@string/password_text" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="@dimen/dp8"
+                    android:layout_weight="0.125"
+                    android:src="@drawable/ic_round_key" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/password_signup_activity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ui_round_solid_grey"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:paddingVertical="@dimen/dp8"
+                    android:paddingStart="@dimen/dp8"
+                    android:paddingEnd="@dimen/dp38"
+                    android:scrollHorizontally="true" />
+
+                <ImageView
+                    android:id="@+id/password_visible_invisible_signup_activity"
+                    android:layout_width="@dimen/dp24"
+                    android:layout_height="@dimen/dp24"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginHorizontal="@dimen/dp8"
+                    android:layout_marginTop="@dimen/dp4"
+                    android:src="@drawable/ic_round_eye" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp16"
+                android:layout_marginBottom="@dimen/dp4"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp8"
+                    android:layout_weight="1.875"
+                    android:gravity="start"
+                    android:text="@string/confirm_password_text" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="@dimen/dp8"
+                    android:layout_weight="0.125"
+                    android:src="@drawable/ic_round_key" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/confirm_password_signup_activity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ui_round_solid_grey"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:paddingVertical="@dimen/dp8"
+                    android:paddingStart="@dimen/dp8"
+                    android:paddingEnd="@dimen/dp38"
+                    android:scrollHorizontally="true" />
+
+                <ImageView
+                    android:id="@+id/confirm_password_visible_invisible_signup_activity"
+                    android:layout_marginTop="@dimen/dp4"
+                    android:layout_width="@dimen/dp24"
+                    android:layout_height="@dimen/dp24"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginHorizontal="@dimen/dp8"
+                    android:src="@drawable/ic_round_eye" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp16"
+                android:layout_marginBottom="@dimen/dp4"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp8"
+                    android:layout_weight="1.875"
+                    android:gravity="start"
+                    android:text="@string/country_text" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="@dimen/dp8"
+                    android:layout_weight="0.125"
+                    android:src="@drawable/ic_round_planet" />
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Spinner
+                    android:id="@+id/country_spinner_signup_activity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ui_round_solid_grey"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:padding="@dimen/dp8"
+                    android:scrollHorizontally="true" />
+
+                <ImageView
+                    android:layout_width="@dimen/dp24"
+                    android:layout_height="@dimen/dp24"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginHorizontal="@dimen/dp8"
+                    android:layout_marginTop="@dimen/dp4"
+                    android:src="@drawable/dropdown_icon" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp8"
+                android:weightSum="10"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_weight="5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/dp8"
+                    android:text="@string/gender_text"/>
+
+                <LinearLayout
+                    android:layout_weight="5"
+                    android:gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/dp8">
+
+                    <RadioButton
+                        android:id="@+id/male_signup_activity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/male_text"
+                        android:buttonTint="@color/app_color"
+                        android:textColor="@color/app_color" />
+
+                    <RadioButton
+                        android:id="@+id/female_signup_activity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/app_color"
+                        android:text="@string/female_text"
+                        android:textColor="@color/app_color" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/submit_signup_activity"
+                android:layout_width="@dimen/dp150"
+                android:layout_height="@dimen/dp38"
+                android:layout_gravity="center"
+                android:layout_marginVertical="@dimen/dp16"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:background="@drawable/app_button"
+                android:text="@string/signup_text" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

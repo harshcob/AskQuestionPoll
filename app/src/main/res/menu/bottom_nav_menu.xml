@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--home-->
+    <item
+        android:id="@+id/navigation_view_questions"
+        android:icon="@drawable/bottom_view_question_icon"
+        android:title="@string/view_questions_text" />
+    <!--dashboard-->
+    <item
+        android:id="@+id/navigation_add_questions"
+        android:icon="@drawable/bottom_add_question_icon"
+        android:title="@string/add_questions_text" />
+    <!--notifications-->
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/bottom_settings_icon"
+        android:title="@string/setting_text" />
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/bottom_account_icon"
+        android:title="@string/account_text" />
+
+</menu>

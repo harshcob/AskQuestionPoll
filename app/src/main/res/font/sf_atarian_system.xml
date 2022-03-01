@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <font android:font="@font/sf_atarian_system_extended"
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        />
+
+    <font android:font="@font/sf_atarian_system_extended_bold"
+        android:fontStyle="normal"
+        android:fontWeight="700"
+         />
+
+
+</font-family>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/transparent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/transparent_background"
+        android:layout_marginVertical="@dimen/dp8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/question_description_recycler_item_layout"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginVertical="@dimen/dp8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:id="@+id/view_questions_recycler_item_layout"
+            android:layout_width="@dimen/dp150"
+            android:layout_height="@dimen/dp38"
+            android:layout_gravity="center"
+            android:layout_marginVertical="@dimen/dp8"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="@drawable/app_button"
+            android:text="@string/view_question_text" />
+
+        <Button
+            android:id="@+id/view_analysis_recycler_item_layout"
+            android:layout_width="@dimen/dp150"
+            android:layout_height="@dimen/dp38"
+            android:layout_gravity="center"
+            android:layout_marginVertical="@dimen/dp8"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="@drawable/app_button"
+            android:text="@string/view_analysis_text" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.dialog.ImageSourceSelectionDialog"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_margin="@dimen/dp8"
+        android:background="@drawable/ui_round_solid_white"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/choose_image_source_text"
+            android:textSize="@dimen/text_24"
+            android:textColor="@color/black"
+            android:background="@color/app_color"
+            android:padding="@dimen/dp12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/camera_dialog_image_source"
+            android:text="Camera"
+            android:textColor="@color/black"
+            android:padding="@dimen/dp12"
+            android:textSize="@dimen/text_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/gallery_dialog_image_source"
+            android:text="Gallery"
+            android:textColor="@color/black"
+            android:padding="@dimen/dp12"
+            android:textSize="@dimen/text_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</RelativeLayout>

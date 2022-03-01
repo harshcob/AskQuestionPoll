@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/drawable/country_spinner_item_background.xml" value="0.2" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/drawable/custom_bottom_navigation.xml" value="0.24166666666666667" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/drawable/edit_text_grey_ui.xml" value="0.26564102564102565" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/drawable/ic_round_close.xml" value="0.26564102564102565" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/drawable/ic_round_email.xml" value="0.26564102564102565" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/drawable/ic_round_eye.xml" value="0.2638888888888889" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/drawable/ic_round_eye_hide.xml" value="0.21296296296296297" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/drawable/ic_round_key.xml" value="0.26564102564102565" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/drawable/ic_round_planet.xml" value="0.26564102564102565" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/drawable/ic_round_right_arrow.xml" value="0.2638888888888889" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/drawable/ic_round_search.xml" value="0.24166666666666667" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/drawable/ic_round_text_abc.xml" value="0.26564102564102565" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/drawable/text_grey_ui.xml" value="0.26564102564102565" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/drawable/transparent_background.xml" value="0.26564102564102565" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/drawable/ui_horizontal_line.xml" value="0.67" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/drawable/ui_horizontal_line_grey.xml" value="0.24074074074074073" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/drawable/ui_round_solid_white.xml" value="0.2212962962962963" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/font-v26/sf_atarian_system.xml" value="0.25925925925925924" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/font/sf_atarian_system.xml" value="0.75" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/account_item_layout.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/activity.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/activity_forgot_password.xml" value="0.22" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/activity_question_analysis_none.xml" value="0.22" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/activity_question_report.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/activity_report_view_question.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/activity_reset_password.xml" value="0.2" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/activity_result_question.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/activity_signup.xml" value="0.22" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/activity_view_my_question.xml" value="0.25" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/activity_view_my_question_analysis.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/activity_web_view.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/adapter.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/adapter_account_analysis.xml" value="0.22" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/adapter_account_layout.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/adapter_country_layout.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/adapter_spinner_layout.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/coutry_spinner_item_layout.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/dialog_app_rating.xml" value="0.2" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/dialog_country_pickup.xml" value="0.22" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/dialog_image_source.xml" value="0.33" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/dialog_otp_verification.xml" value="0.33" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/dialog_token_expire.xml" value="0.2" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/dialog_token_expired.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/dialog_verify_logout.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/fragment_account.xml" value="0.25" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/fragment_add_question.xml" value="0.22" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/fragment_dashboard.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/fragment_home.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/fragment_notifications.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/fragment_profile.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/fragment_setting.xml" value="0.2" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/fragment_view_questions.xml" value="0.18" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/item_account_layout.xml" value="0.22" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/item_country_layout.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/layout/item_spinner_layout.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/menu/bottom_nav_menu.xml" value="0.19907407407407407" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.24166666666666667" />
+        <entry key="..\:/AndroidTraining/AskQuestionPoll/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.24166666666666667" />
+        <entry key="..\:/Sdk/platforms/android-31/data/res/layout/simple_spinner_item.xml" value="0.25364583333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

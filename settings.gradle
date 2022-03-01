@@ -1,0 +1,13 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+        maven { url 'http://192.168.0.100:8082/artifactory/optimumbrew-lib'
+            allowInsecureProtocol(true)
+            setAllowInsecureProtocol(true)}
+    }
+}
+rootProject.name = "Ask Question Poll"
+include ':app'

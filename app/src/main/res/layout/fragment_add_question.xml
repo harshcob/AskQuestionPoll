@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_add_question_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/app_background"
+    tools:context=".ui.fragments.AddQuestionFragment">
+
+    <LinearLayout
+        android:layout_margin="@dimen/dp8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp16"
+            android:layout_marginBottom="@dimen/dp8"
+            android:padding="@dimen/dp8"
+            android:background="@drawable/transparent_background"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_marginVertical="@dimen/dp8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Spinner
+                    android:id="@+id/category_spinner_add_question_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ui_round_solid_grey"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:padding="@dimen/dp8"
+                    android:scrollHorizontally="true" />
+
+                <ImageView
+                    android:layout_width="@dimen/dp24"
+                    android:layout_height="@dimen/dp24"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginHorizontal="@dimen/dp8"
+                    android:layout_marginTop="@dimen/dp4"
+                    android:src="@drawable/dropdown_icon" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_text" />
+
+
+                <ImageButton
+                    android:id="@+id/question_image_add_question_fragment"
+                    android:layout_width="@dimen/dp128"
+                    android:layout_height="@dimen/dp128"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/app_default_img"
+                    android:src="@drawable/app_camera" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/dp8"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/dp4"
+                    android:text="@string/description_text"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/question_description_add_question_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/app_color"
+                    android:maxLength="200"
+                    android:textColor="@color/app_color" />
+
+                <TextView
+                    android:id="@+id/question_description_count_add_question_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:text="@string/edittext_0_200_text"
+                    android:maxLength="7"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/dp8"
+            android:background="@drawable/transparent_background"
+            android:orientation="vertical"
+            android:padding="@dimen/dp8">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp38"
+                android:layout_marginBottom="@dimen/dp4">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp38"
+                    android:layout_alignParentStart="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/option_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp38"
+                    android:layout_alignParentEnd="true">
+
+                    <RadioButton
+                        android:id="@+id/text_radio_add_question_fragment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="@color/white"
+                        android:text="@string/text_text"
+                        android:textColor="@color/white" />
+
+                    <RadioButton
+                        android:id="@+id/image_radio_add_question_fragment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="@color/white"
+                        android:text="@string/image_text"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/option_text_layout_add_question_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp96"
+                android:background="@color/light_grey"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp96"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <EditText
+                        android:id="@+id/text_option1_add_question_fragment"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/dp96"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/dp2"
+                        android:layout_weight="0.875"
+                        android:background="@color/transparent"
+                        android:textColorHint="@color/black"
+                        android:gravity="center"
+                        android:hint="@string/sample_option1_text"
+                        android:textColor="@color/black" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.25" />
+
+                    <EditText
+                        android:id="@+id/text_option2_add_question_fragment"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/dp96"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/dp2"
+                        android:layout_weight="0.875"
+                        android:background="@color/transparent"
+                        android:gravity="center"
+                        android:hint="@string/sample_option2_text"
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginVertical="@dimen/dp24"
+                    android:src="@drawable/app_or" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:background="@color/light_grey"
+                android:visibility="gone"
+                android:id="@+id/option_image_layout_add_question_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp96">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp96"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:id="@+id/image_option1_add_question_fragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp96"
+                        android:layout_marginEnd="@dimen/dp2"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:src="@drawable/app_default_image_1"
+                        android:textColor="@color/light_grey" />
+
+                    <ImageView
+                        android:id="@+id/image_option2_add_question_fragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp96"
+                        android:layout_marginStart="@dimen/dp2"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:src="@drawable/app_default_image_2"
+                        android:textColor="@color/light_grey" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginVertical="@dimen/dp24"
+                    android:src="@drawable/app_or" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent_background"
+            android:orientation="vertical"
+            android:padding="@dimen/dp8">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp8"
+                android:text="@string/preferences_text" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/country_add_question_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:backgroundTint="@color/white"
+                    android:hint="@string/country_text"
+                    android:padding="@dimen/dp8"
+                    android:textColorHint="@color/white" />
+
+                <ImageView
+
+                    android:layout_width="@dimen/dp24"
+                    android:layout_height="@dimen/dp24"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/dropdown_icon" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/location_message_text"
+                android:textColor="@color/white" />
+
+
+            <View
+                android:background="@drawable/ui_horizontal_line_grey"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp16"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Spinner
+                    android:layout_marginTop="@dimen/dp4"
+                    android:id="@+id/gender_spinner_add_question_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ui_round_solid_grey"
+                    android:padding="@dimen/dp8" />
+
+                <ImageView
+                    android:layout_width="@dimen/dp24"
+                    android:layout_height="@dimen/dp24"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginHorizontal="@dimen/dp8"
+                    android:layout_marginTop="@dimen/dp4"
+                    android:src="@drawable/dropdown_icon" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp8"
+                android:text="@string/gender_message_text"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/preview_add_question_fragment"
+                android:layout_width="@dimen/dp150"
+                android:layout_height="@dimen/dp38"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/dp24"
+                android:layout_weight="1"
+                android:background="@drawable/app_button"
+                android:text="@string/preview_text"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/submit_add_question_fragment"
+                android:layout_width="@dimen/dp150"
+                android:layout_height="@dimen/dp38"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/dp24"
+                android:layout_weight="1"
+                android:background="@drawable/app_button"
+                android:text="@string/submit_text"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

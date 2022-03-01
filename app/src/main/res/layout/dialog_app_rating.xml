@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.dialog.AppRatingDialog">
+
+    <LinearLayout
+        android:layout_margin="@dimen/dp16"
+        android:padding="@dimen/dp8"
+        android:background="@drawable/ui_round_solid_white"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:background="@drawable/ask_question_logo"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dp4"
+            android:layout_width="@dimen/dp150"
+            android:layout_height="@dimen/dp150"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="@string/rating_message_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <RatingBar
+            android:id="@+id/rating_bar_rating_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:numStars="5"
+            android:layout_margin="@dimen/dp4"
+            android:progressTint="@color/app_color" />
+
+        <TextView
+            android:id="@+id/not_now_rating_dialog"
+            android:gravity="center"
+            android:text="@string/not_now_text"
+            android:textSize="@dimen/text_20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>
