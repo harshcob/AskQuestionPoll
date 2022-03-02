@@ -214,6 +214,7 @@ public class AddQuestionFragment extends Fragment implements ImageSourcePickerIn
                                 }else {
                                     Snackbar.make(parent, "Please, restart app", BaseTransientBottomBar.LENGTH_LONG).show();
                                 }
+
                             } else if (error.getCause() instanceof TimeoutError || error.getCause() instanceof NoConnectionError) {
                                 Snackbar.make(parent, "Server timeout! Try again", BaseTransientBottomBar.LENGTH_SHORT).show();
                             } else if (ConnectivityUtils.isInternetConnected()) {
