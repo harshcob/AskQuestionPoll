@@ -202,9 +202,7 @@ public class AddQuestionFragment extends Fragment implements ImageSourcePickerIn
                         @Override
 
                         public void onErrorResponse(VolleyError error) {
-
                             progressDialog.dismiss();
-
                             if (error == null || error.getCause() == null) {
                                 Snackbar.make(parent, "Server not respond", BaseTransientBottomBar.LENGTH_LONG).show();
                             } else if (error.getCause() instanceof JsonSyntaxException || error.getCause() instanceof IllegalStateException) {
